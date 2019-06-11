@@ -1,0 +1,10 @@
+@types/styled-components has bug on latest. set fixed version.
+https://stackoverflow.com/questions/54706594/types-styled-components-duplicate-identifier-formdata
+
+create user 'reacttypescript'@'localhost' IDENTIFIED BY 'reacttypescript';
+grant all on reacttypescript.* to 'reacttypescript'@'localhost';
+
+# mysql old hash algorithm for account's password
+http://hiyo-ac.hatenablog.com/entry/2019/01/04/122044
+ALTER USER 'reacttypescript'@'localhost' identified with mysql_native_password by 'reacttypescript';
+flush privileges;
