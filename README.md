@@ -14,7 +14,7 @@ Database : MySQL
 
 Install node.js (through nvm/nodebrew )
 
-Install mysql (through brew/apt-get if you are using Mac)
+Install mysql (through brew/apt-get)
 
 ##### Set Up MySQL
 
